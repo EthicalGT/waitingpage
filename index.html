@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Processing Request</title>
+    <title>EthicalPay - Request Page</title>
     <style>
         body {
             display: flex;
@@ -25,15 +25,15 @@
 <body>
 
 <div class="container">
-    <h2>Your request is being processed.</h2>
+    <h2>EthicalPay is processing your request please hang on!</h2>
     <p>Kindly wait for some time...</p>
 </div>
 
 <script>
     setTimeout(() => {
-        window.close(); // Closes the tab (works only if opened via JavaScript)
-        window.open('', '_self').close(); // Alternative close method
-    }, 60000); // 60 seconds (1 minute)
+        window.close();
+        window.open('', '_self').close();
+    }, 60000);
 </script>
 
 </body>
